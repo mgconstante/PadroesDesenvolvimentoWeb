@@ -21,6 +21,7 @@ INSERT INTO pedido (data, status, valor_total, cliente_id) VALUES('2026-09-02', 
 INSERT INTO pedido (data, status, valor_total, cliente_id) VALUES('2026-09-03', "Pendente", 80, 3);
 INSERT INTO pedido (data, status, valor_total, cliente_id) VALUES('2026-09-04', "Pago", 220, 4);
 INSERT INTO pedido (data, status, valor_total, cliente_id) VALUES('2026-09-05', "Cancelado", 50, 5);
+INSERT INTO pedido (data, status, valor_total, cliente_id) VALUES('2026-09-05', "ATIVO", 60, 5);
 INSERT INTO item_pedido (quantidade, valor_unitario, pedido_id, produto_id) VALUES (2, 50.0, 1, 1);
 INSERT INTO item_pedido (quantidade, valor_unitario, pedido_id, produto_id) VALUES (3, 75.0, 2, 2);
 INSERT INTO item_pedido (quantidade, valor_unitario, pedido_id, produto_id) VALUES (1, 100.0, 3, 3);
